@@ -1,13 +1,17 @@
 node {
-    stage('build-using-scm'){
-     echo 'build';
+    stage('Build Jar'){
+     echo 'build jar';
     }
 
-    stage('test-using-scm'){
-     echo 'test';
+    stage('Build Image'){
+     echo 'build image';
     }
 
-    stage('deploy-using-scm'){
-     echo 'deploy';
+    stage('Push'){
+     echo 'push';
+    }
+
+    stage('Deploy'){
+     echo 'deploy'
     }
 }
