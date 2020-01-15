@@ -1,3 +1,4 @@
+/*
 package com.painting.tools.common;
 
 import lombok.Data;
@@ -19,4 +20,4 @@ public class PaginationUtils {
         pagination.offset = (pageIndex - 1) * pageSize;
         return pagination;
     }
-}
+}*/
