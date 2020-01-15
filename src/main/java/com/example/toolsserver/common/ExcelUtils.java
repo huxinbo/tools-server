@@ -66,7 +66,7 @@ public class ExcelUtils {
     }
 
     private static <T> void writeXSSF(XSSFSheet sheet, int rowOffset, List<T> data, List<CellWriter<T>> writers) {
-        List<CellWrapper> headerCells = new ArrayList<>();
+        List<CellWrapper> headerCells = new ArrayList<CellWrapper>();
         CellWrapper emptyCell = new CellWrapper(null);
 
         if (rowOffset == 0) {
