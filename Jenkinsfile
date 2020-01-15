@@ -7,7 +7,7 @@ node {
      echo 'build image';
     }
 
-    stage('push'){
+    stage('Push'){
      echo 'push';
     }
 
